@@ -1,33 +1,38 @@
-# Sales Data Cleaning & Preprocessing (Internship Task)
+# Sales Data Cleaning & Preprocessing (Excel)
 
 ## 📌 Objective
-Prepare and validate a raw sales dataset to make it clean, consistent, and analysis-ready using Microsoft Excel.
+Clean and preprocess a sales dataset to make it ready for analysis using Microsoft Excel tools.
 
 ## 🛠 Tools Used
 - Microsoft Excel
 
-## 📋 Cleaning Steps Performed
-1. **Missing Values**
-   - Checked using Go To Special → Blanks  
-   - No missing values were found.
+## 📋 Cleaning & Validation Steps
 
-2. **Duplicates**
-   - Checked using Remove Duplicates  
-   - No duplicate records found.
+1. **Missing Values Check**
+   - Used Go To Special → Blanks
+   - No missing values found
 
-3. **Date Formatting**
-   - Standardized the date column to a consistent `dd-mm-yyyy` format.
-   - Converted text dates into actual Excel date format.
+2. **Duplicates Check**
+   - Used Data → Remove Duplicates
+   - No duplicate records were found
+
+3. **Date Column Standardization**
+   - Original dates had mixed formats (dd-mm-yyyy, mm/dd/yyyy)
+   - Converted to a uniform `dd-mm-yyyy` format so Excel recognizes them as dates
 
 4. **Numeric Validation**
-   - Verified `order_value` and `cost` columns are stored as proper numeric formats.
-   - Tested arithmetic operations to ensure calculations can be performed.
+   - Verified that `order_value` and `cost` are stored as numeric values
+   - Ensured formatting supports calculations
 
 5. **Text Standardization**
-   - Checked categorical fields (Country, Category, Device Type) for consistency.
+   - Reviewed categorical fields like Country, Category, Device Type
+   - Ensured consistent formatting (no extra spaces, uniform capitalization)
 
 ## 📌 Result
-The dataset is now clean, uniform, and ready for further analysis or visualization.
+The dataset is now clean, consistent, and ready for analysis or visualization.
+
+## 🖼 Visual Proof 
+
 
 ![Before](Before_clean(RawDate).png)
 ![After](After_clean(Dates).png)
