@@ -29,9 +29,6 @@ Prepare and validate a raw sales dataset to make it clean, consistent, and analy
 ## 📌 Result
 The dataset is now clean, uniform, and ready for further analysis or visualization.
 
-## 📁 Files Included
-- `sales_cleaned.xlsx` — Cleaned dataset  
-- Screenshot images (optional visual proof)
 
 ## 👤 Author
 **Aryansh Dhuria**
