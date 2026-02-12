@@ -1,23 +1,39 @@
-# Internship-Task-Day-1
+# Sales Data Cleaning & Preprocessing (Internship Task)
 
-# Sales Data Cleaning & Preprocessing (Excel)
+## 📌 Objective
+Prepare and validate a raw sales dataset to make it clean, consistent, and analysis-ready using Microsoft Excel.
 
-## Objective
-Prepare a raw sales dataset for analysis by identifying and fixing
-data quality issues.
+## 🛠 Tools Used
+- Microsoft Excel
 
-## Tools Used
-Microsoft Excel
+## 📋 Cleaning Steps Performed
+1. **Missing Values**
+   - Checked using Go To Special → Blanks  
+   - No missing values were found.
 
-## Cleaning Steps Performed
-- Checked for missing values using Go To Special → no blanks found.
-- Verified duplicates using Remove Duplicates → none detected.
-- Standardized the date column into dd-mm-yyyy format.
-- Validated numeric columns such as order_value and cost.
-- Reviewed categorical fields for consistency.
+2. **Duplicates**
+   - Checked using Remove Duplicates  
+   - No duplicate records found.
 
-## Result
-The dataset is clean, consistent, and ready for analysis or visualization.
+3. **Date Formatting**
+   - Standardized the date column to a consistent `dd-mm-yyyy` format.
+   - Converted text dates into actual Excel date format.
 
-## Author
-Aryansh Dhuria
+4. **Numeric Validation**
+   - Verified `order_value` and `cost` columns are stored as proper numeric formats.
+   - Tested arithmetic operations to ensure calculations can be performed.
+
+5. **Text Standardization**
+   - Checked categorical fields (Country, Category, Device Type) for consistency.
+
+## 📌 Result
+The dataset is now clean, uniform, and ready for further analysis or visualization.
+
+## 📁 Files Included
+- `sales_cleaned.xlsx` — Cleaned dataset  
+- Screenshot images (optional visual proof)
+
+## 👤 Author
+**Aryansh Dhuria**
+
+
