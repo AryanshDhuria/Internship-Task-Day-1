@@ -28,6 +28,8 @@ Prepare and validate a raw sales dataset to make it clean, consistent, and analy
 
 ## 📌 Result
 The dataset is now clean, uniform, and ready for further analysis or visualization.
+
+![]Before](Before_clean(Dates).png)
 ![After](After_clean(Dates).png)
 
 ## 👤 Author
